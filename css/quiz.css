@@ -45,9 +45,86 @@ a:link {
 .navbar ul li {
     list-style-type: none;
     text-decoration: none;
-    margin: 1rem;
+    margin: 0.5rem;
     color: var(--green);
 }
 
 /*-------NAVBAR Ends------------*/
 
+/* TRIANGLE QUIZ */
+
+.main-section {
+    background: #505152;
+    padding: 2rem;
+    margin: auto;
+    height: 100vh;
+}
+
+
+.heading {
+    color: var(--orange);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+label {
+    color: var(--green);
+    display: inline-block;
+    margin: 1rem;
+}
+
+input {
+    margin: 0.5rem;
+    border: none;
+    color: var(--bg);
+}
+
+.question-container {
+    background-color: var(--bg);
+    max-width: 450px;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+.question {
+    margin: 0.5rem;
+}
+
+.btn {
+    padding: 0.7rem 2rem;
+    background-color: var(--orange);
+    border: none;
+    font-size: 16px;
+    color: whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
+    cursor: pointer;
+}
+
+.output {
+    text-align: center;
+    color: whitesmoke;
+    border: 2px solid var(--bg);
+    border-radius: 5px;
+    max-width: 350px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: var(--bg);
+}
+
+.hidden {
+    display: none;
+}
+
+.wrong {
+    border: 2px solid var(--orange);
+}
+
+.right {
+    border: 2px solid var(--green);
+}

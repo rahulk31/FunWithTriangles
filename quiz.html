@@ -13,7 +13,7 @@
         <img src="./assets/triangle.png" alt="logo" class="logo">
         <div class="nav__ul">
         <ul>
-            <a href="./triangle.html"><li>Triangles</li></a>
+            <a href="./index.html"><li>Triangles</li></a>
             <a href="./quiz.html"><li>Quiz</li></a>
             <a href="./hypotenuse.html"><li>Hypotenuse</li></a>
             <a href="./area.html"><li>Area</li></a>
@@ -22,8 +22,29 @@
 
     <!-- NAVBAR Ends -->
 
-    <!-- TRIANGLES Section Starts -->
+    <!-- QUIZ Section Starts -->
+    <div class="main-section">
+        <form class="quiz-form">
+            <h2 class="heading">Triangle Quiz</h2>
+            <div class="question-container">
+                <p class="question">What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+                <label><input type="radio" name="question1" value="45°">45°</label>
+                <label><input type="radio" name="question1" value="90°">90°</label>
+                <label><input type="radio" name="question1" value="60°">60°</label>
+            </div>
+            <div class="question-container">
+                <p class="question">If a triangle has an angle of 90 degrees, what is it called?</p>
+                <label><input type="radio" name="question2" value="right-angled">right-angled</label>
+                <label><input type="radio" name="question2" value="acute">acute</label>
+                <label><input type="radio" name="question2" value="obtuse">obtuse</label>
+            </div>
     
+        </form>
+
+        <button class="btn">Submit</button>
+        <p class="output hidden" ></p>
+    </div>
+        
 
     <script src="./js/quiz.js"></script>
 </body>
