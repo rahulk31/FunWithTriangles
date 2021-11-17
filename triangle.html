@@ -8,17 +8,44 @@
     <title>FunWithTriangles</title>
 </head>
 <body>
+    <!-- NAVBAR Starts -->
     <nav class="navbar">
         <img src="./assets/triangle.png" alt="logo" class="logo">
-        <div class="nav__links">
-            <ul class="nav__links-ul">
-                <a href="./triangle.html"><li>Triangles</li></a>
-                <a href="./quiz.html"><li>Quiz</li></a>
-                <a href="./hypotenuse.html"><li>Hypotenuse</li></a>
-                <a href="./area.html"><li>Area</li></a>
-            </ul>
-        </div>
+        <div class="nav__ul">
+        <ul>
+            <a href="./triangle.html"><li>Triangles</li></a>
+            <a href="./quiz.html"><li>Quiz</li></a>
+            <a href="./hypotenuse.html"><li>Hypotenuse</li></a>
+            <a href="./area.html"><li>Area</li></a>
+        </ul>
     </nav>
+
+    <!-- NAVBAR Ends -->
+
+    <!-- TRIANGLES Section Starts -->
+    <div class="main-section">
+        <h1 class="heading">Lets Check your triangle.</h1>
+        <div class="input-area">
+        <div class="angle">
+            <label for="angle1">Enter Angle 1</label>
+            <input type="number" id="angle1">
+        </div>
+        <div class="angle">
+            <label for="angle2">Enter Angle 2</label>
+            <input type="number" id="angle2">
+        </div>
+        <div class="angle">
+            <label for="angle3">Enter Angle 3</label>
+            <input type="number" id="angle3">
+        </div>
+        
+
+        <button class="btn">Check</button>
+        </div>
+
+        <p class="output hidden" ></p>
+    </div>
+
     
 
     <script src="./js/triangle.js"></script>

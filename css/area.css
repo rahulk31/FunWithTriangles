@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@1,100&family=Roboto&family=Shippori+Antique&display=swap');
+
+:root {
+    --bg: #393d41;
+    --pink: #e52ee5;
+    --orange: #ff7e44;
+    --green: #2bff88;
+    --blue: #2bd2ff;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/*-------NAVBAR Starts------------*/
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 2rem;
+    background: var(--bg);
+}
+
+.logo {
+    max-width: 50px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 1rem;
+    color: var(--green);
+}
+
+/*-------NAVBAR Ends------------*/
+
